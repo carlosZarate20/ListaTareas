@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ListaTareas</string>
+    <string-array name="tareas">
+        <item>Solicitar documentos a Valeria,
+              Como el manual de identidad</item>
+        <item>Reunion con Raul para el test
+            de usabilidad del proyecto del
+            espejo</item>
+        <item>Solicitar documentos a Valeria,
+            como el manual de identidad</item>
+        <item>Enviar correo a Valery</item>
+        <item>Comprar chocolates para Yessenna</item>
+
+
+    </string-array>
+</resources>
