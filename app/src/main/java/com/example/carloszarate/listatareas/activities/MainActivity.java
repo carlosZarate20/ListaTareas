@@ -26,11 +26,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.listTareas);
-        /*tareasList.add(new Tareas("Tarea 1",false));
-        tareasList.add(new Tareas("Tarea 2",false));
-        tareasList.add(new Tareas("Tarea 3",false));
-        tareasList.add(new Tareas("Tarea 4",false));
-        tareasList.add(new Tareas("Tarea 5",false)); */
         initItems();
         tareasAdapter = new TareasAdapter(this,items);
         listView.setAdapter(tareasAdapter);

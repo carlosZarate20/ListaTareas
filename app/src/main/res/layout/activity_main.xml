@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingEnd="16dp"
     android:orientation="vertical"
     style="@style/layout_background_apps">
+
+    <TextView
+        android:id="@+id/textTarea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#FFFF"
+        android:text="Tareas"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
     <ListView
         android:id="@+id/listTareas"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="226dp"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:layout_below="@+id/textTarea">
+
     </ListView>
 
 
 
-</LinearLayout>
+</RelativeLayout>
